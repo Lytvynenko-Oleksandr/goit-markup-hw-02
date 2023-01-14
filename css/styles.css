@@ -1,15 +1,86 @@
-.root {
+:root {
 --primary-text-color: #434455;
---change-color: ;
 --background-color: #ffffff;
+--change-color-link: #4D5AE5;
+--change-color-button: #404BBF;
 }
 
 body {
     color:var(--primary-text-color);
     background-color: var(--background-color);
-    font-family: Roboto;
 }
 
 .navigation-list-link {
     color: #2E2F42;   
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: var(--change-color-link);
+}
+
+.contacts-list-link {
+    color: var(--primary-text-color);
+}
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+    color: var(--change-color-link);
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #ffffff;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.slogan-list-title {
+    color: #2E2F42;
+}
+
+.works-title {
+    color: #2E2F42;
+}
+
+.team-title {
+    color: #2E2F42;
+}
+
+.team-list-title {
+    color: #2E2F42;
+}
+
+.about {
+    background-color: #2E2F42;
+}
+
+.about-container-text {
+    color: #E7E9FC;
+}
+
+.examples-list-title {
+    color: #2E2F42;
+}
+
+.container-list-button {
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.container-list-button:hover,
+.container-list-button:focus {
+    background-color: var(--change-color-button);
+    color: #ffffff
 }

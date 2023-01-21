@@ -15,7 +15,7 @@ body {
     letter-spacing: 0.02em;
 }
 /* Навигация */
-.navigation-list-link {
+.navigation-link {
     color: var(--secondary-text-color); 
     font-weight: 500;
     font-size: 16px;
@@ -23,8 +23,8 @@ body {
     text-decoration: none;
 }
 
-.navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
     color: var(--change-color-link);
 }
 
@@ -33,15 +33,15 @@ body {
 }
 
 /* Контакты навигации */
-.contacts-list-link {
+.contacts-link {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
     font-style: normal;
 }
-.contacts-list-link:hover,
-.contacts-list-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--change-color-link);
 }
 
@@ -84,7 +84,7 @@ body {
     line-height: 1.2;
 }
 
-.slogan-list-text {
+.slogan-text {
     font-size: 16px;
     line-height: 1.5;
 }
@@ -144,14 +144,14 @@ body {
     line-height: 1.5;
 }
 /* Портфолио-примеры работ */
-.examples-list-title {
+.examples-title {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 
-.examples-list-text {
+.examples-text {
     font-size: 16px;
     line-height: 1.5;
 }
@@ -161,7 +161,7 @@ body {
 }
 
 /* Кнопки (портфолио) */
-.container-list-button {
+.container-button {
     background-color: var(--third-text-color);
     color: var(--change-color-link);
     cursor: pointer;
@@ -173,8 +173,8 @@ body {
     letter-spacing: 0.04em;
 }
 
-.container-list-button:hover,
-.container-list-button:focus {
+.container-button:hover,
+.container-button:focus {
     background-color: var(--change-color-button);
     color: var(--background-color);
 }
